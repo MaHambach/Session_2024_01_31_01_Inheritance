@@ -12,6 +12,10 @@ If you have already completed this task earlier, you may work on the bonus task 
 */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Vehicle vehicle = new Vehicle("unknown", "unknown", 0);
+        Car car = new Car("VW", "Golf", 2017, 4, "blue");
+        System.out.println(vehicle);
+        System.out.println(car);
     }
+
 }
