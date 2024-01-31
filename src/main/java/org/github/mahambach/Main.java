@@ -16,6 +16,11 @@ public class Main {
         Car car = new Car("VW", "Golf", 2017, 4, "blue");
         System.out.println(vehicle);
         System.out.println(car);
+        Car car2 = new Car("Audi", "Q7", 2009, 2, "black");
+        System.out.println(car2);
+        Motorcycle motorcycle = new Motorcycle("BMW", "R1200GS", 2015, "Enduro");
+        System.out.println(motorcycle);
     }
 
 }
+

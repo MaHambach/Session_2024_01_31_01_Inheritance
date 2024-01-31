@@ -13,4 +13,10 @@ public class Motorcycle extends Vehicle{
         return this.type;
     }
 
+    @Override
+    public String toString() {
+        return "Motorcycle{" +
+                "type='" + type + '\'' +
+                "} " + super.toString() ;
+    }
 }
