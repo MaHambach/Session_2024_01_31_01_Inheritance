@@ -3,4 +3,12 @@ package org.github.mahambach;
 public class Car extends Vehicle{
     private int numberOfDoors;
     private String color;
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "numberOfDoors=" + numberOfDoors +
+                //", color='" + color + '\'' +
+                '}';
+    }
 }
